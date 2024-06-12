@@ -19,9 +19,9 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
-app.listen(5050, ()=> {
+app.listen(8080, ()=> {
 
-    console.log('Server is running on port 5050');
+    console.log('Server is running on port 8080');
 })
 
 //API ROUTE
