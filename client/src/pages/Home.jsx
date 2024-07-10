@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <div>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
-        <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog</h1>
+        <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to CaseBlog</h1>
         <p className='text-gray-500 text-xs sm:text-sm'>
-          Here you&apos;ll find a variety of articles and tutorials on topics such as
-          web development, software engineering, and programming languages.
+        Explore insights, stories, and inspiration from CaseBlog, where we delve into various topics. 
+        Join us on a journey of discovery and engage with a community of passionate readers and writers.
         </p>
         <Link
           to='/search'
