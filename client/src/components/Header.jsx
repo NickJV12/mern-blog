@@ -67,10 +67,10 @@ export default function Header() {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
             />
-        </form>
-        <Button className='w-12 h-10 lg:hidden' color='gray' pill type='submit'>
-          <AiOutlineSearch />
+            <Button className='w-12 h-10 lg:hidden' color='gray' pill type='submit'>
+          <AiOutlineSearch pill type='submit' />
         </Button>
+        </form>
         <div className="flex gap-2 md:order-2">
           <Button className='w-12 h-10 hidden sm:inline' color='gray' pill onClick={() => dispatch(toggleTheme())}>
             {theme === 'light' ? <FaSun /> : <FaMoon />}          

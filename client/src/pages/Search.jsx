@@ -132,9 +132,19 @@ export default function Search() {
               id='category'
             >
               <option value='uncategorized'>Uncategorized</option>
-              <option value='reactjs'>React.js</option>
-              <option value='nextjs'>Next.js</option>
-              <option value='javascript'>JavaScript</option>
+              <option value="adventure">Adventure</option>
+                <option value="historical-fiction">Historical Fiction</option>
+                <option value="horror">Horror</option>
+                <option value="mystery">Mystery</option>
+                <option value="romance">Romance</option>
+                <option value="Science Fiction">Science Fiction</option>
+                <option value="thriller">Thriller</option>
+                <option value="western">Western</option>
+                <option value="Young Adult">Young Adult</option>
+                <option value="Biography">Biography</option>
+                <option value="Essay">Essay</option>
+                <option value="True Crime">True Crime</option>
+                <option value="Travel Writing">Travel Writing</option>
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
