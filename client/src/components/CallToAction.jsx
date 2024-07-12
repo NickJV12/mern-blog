@@ -1,4 +1,4 @@
-import { Button } from "flowbite-react/lib/cjs/components/Button";
+import { Button } from "flowbite-react";
 
 export default function CallToAction() {
   return (
